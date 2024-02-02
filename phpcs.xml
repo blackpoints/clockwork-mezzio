@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd">
+
+    <arg name="basepath" value="."/>
+    <arg name="colors"/>
+    <arg name="extensions" value="php"/>
+    <arg name="parallel" value="80"/>
+
+    <!-- Show summary -->
+    <!-- <arg name="report" value="summary"/> -->
+
+    <!-- Show progress -->
+    <arg value="p"/>
+
+    <!-- Paths to check -->
+    <file>src/</file>
+    
+    <!-- Set coding standard -->
+    <rule ref="PSR12"/> 
+</ruleset>
