@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Blackpoints\\Clockwork\\Mezzio": "src/"
+            "Blackpoints\\Clockwork\\Mezzio\\": "src/"
         }
     }
 }
