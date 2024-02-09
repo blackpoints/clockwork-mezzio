@@ -36,7 +36,7 @@ class ClockworkMiddleware implements MiddlewareInterface
         }
 
         if ($this->clockwork->isWebEnabled()) {
-            if ($requestPath == $this->clockwork->getWebHost()) {
+            if ($requestPath === '/clockwork') {
                 return  $this->clockwork->usePsrMessage($request, new Response())->returnWeb();
             }
         }
